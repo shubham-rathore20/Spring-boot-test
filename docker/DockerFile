@@ -1,0 +1,10 @@
+FROM openjdk:8-jre-alpine
+
+#COPY  SpringBootHelloWorldExample.jar /home/shubham_rathore20/SpringBootHelloWorldExample/docker/SpringBootHelloWorldExample.jar
+COPY  SpringBootHelloWorldExample.war SpringBootHelloWorldExample.war
+#CMD  java -jar SpringBootHelloWorldExample.jar
+#WORKDIR /home/shubham_rathore20/SpringBootHelloWorldExample/docker/runn
+#CMD ["java","-jar" ,"/SpringBootHelloWorldExample.jar"]
+ENTRYPOINT ["java","-jar" ,"/SpringBootHelloWorldExample.war"]
+EXPOSE 8090
+
