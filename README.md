@@ -582,3 +582,11 @@ Spring-boot-test
   570  ll
   571  history
 shubham_rathore20@cloudshell:~/SpringBootHelloWorldExample$
+
+
+shubham_rathore20@cloudshell:~/SpringBootHelloWorldExample$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/shubham-rathore20/Spring-boot-test.git
+  Push  URL: https://github.com/shubham-rathore20/Spring-boot-test.git
+  HEAD branch: master
+  Remote branch:
